@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+    <nav class="bg-white shadow-md p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">My Portfolio</h1>
+            <ul class="flex space-x-4">
+                <li><a href="#about" class="text-gray-700 hover:text-blue-500 transition duration-300">About</a></li>
+                <li><a href="#projects" class="text-gray-700 hover:text-blue-500 transition duration-300">Projects</a></li>
+                <li><a href="#contact" class="text-gray-700 hover:text-blue-500 transition duration-300">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <header class="text-center py-20 bg-blue-500 text-white">
+        <h2 class="text-4xl font-bold animate-bounce">Welcome to My Portfolio</h2>
+        <p class="text-lg mt-2">A showcase of my work and projects</p>
+    </header>
+    
+    <section id="about" class="container mx-auto py-12 px-4">
+        <h3 class="text-3xl font-semibold text-center">About Me</h3>
+        <p class="text-gray-700 text-center mt-4">I am a passionate developer with experience in web development, networking, and problem-solving.</p>
+    </section>
+    
+    <section id="projects" class="bg-gray-200 py-12">
+        <div class="container mx-auto px-4">
+            <h3 class="text-3xl font-semibold text-center">Projects</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+                <div class="bg-white p-4 shadow-md rounded-lg transform hover:scale-105 transition duration-300">
+                    <h4 class="text-xl font-bold">Project 1</h4>
+                    <p class="text-gray-600">Description of the project.</p>
+                </div>
+                <div class="bg-white p-4 shadow-md rounded-lg transform hover:scale-105 transition duration-300">
+                    <h4 class="text-xl font-bold">Project 2</h4>
+                    <p class="text-gray-600">Description of the project.</p>
+                </div>
+                <div class="bg-white p-4 shadow-md rounded-lg transform hover:scale-105 transition duration-300">
+                    <h4 class="text-xl font-bold">Project 3</h4>
+                    <p class="text-gray-600">Description of the project.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="container mx-auto py-12 px-4 text-center">
+        <h3 class="text-3xl font-semibold">Contact Me</h3>
+        <p class="text-gray-700 mt-4">Feel free to reach out via email: <a href="mailto:dev.email@example.com" class="text-blue-500 hover:underline transition duration-300">dev.email@example.com</a></p>
+    </section>
+    
+    <footer class="bg-gray-800 text-white text-center py-4 mt-6">
+        <p>&copy; 2025 My Portfolio. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
